@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
 
+import image from "./cat.jpg";
+import ReactPlayer from 'react-player'
+import "./style.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <div
+     
+        style={{
+          border: "solid",
+          fontSize: 1,
+          color: "black",
+    maxWidth: "100vw",
+        }}>
+            
+
+        <h1 className="title red">Your name here</h1>
+        <br />
+        <div className="image">
+        <img  src={image} alt="fff"/>
+        <br />
+        <img src="volvo_s90_1.jpg" alt ="hsjc" />
+        </div>
+        <ReactPlayer width='480px' height='240px' controls url="https://youtu.be/e8WX2BnLO3U" />
+</div>
+
+
+
+</div>
+);
 }
 
 export default App;

@@ -1,0 +1,14 @@
+.red {
+    color: brown;
+    font-style: italic;
+  }
+  
+  .title {
+    font-size: large;
+  }
+.image {
+  display: flex;
+  height: 480px ;
+  width: 240px;
+}
+  
